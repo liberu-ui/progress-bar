@@ -1,5 +1,6 @@
 <template>
-    <div :style="style"/>
+    <div class="progress-bar"
+        :style="style"/>
 </template>
 
 <script>
@@ -13,6 +14,10 @@ export default {
             type: Number,
             default: 2,
             validator: v => v > 0,
+        },
+        transition: {
+            type: Number,
+            default: 0,
         },
         opacity: {
             type: Number,
@@ -34,15 +39,22 @@ export default {
         style() {
             return {
                 position: this.position,
-                left: '0px',
-                top: '0px',
                 height: `${this.thickness}px`,
                 width: `${this.progress}%`,
                 opacity: this.opacity,
                 backgroundColor: this.color,
                 boxShadow: `0 0 5px ${this.color}`,
+                transition: `width ${this.transition}s`,
             };
         },
     },
 };
 </script>
+
+<style lang="scss">
+    .progress-bar {
+        left: 0px;
+        top: 0px;
+        z-index: 9999;
+    }
+</style>

@@ -27,6 +27,7 @@ export default {
         progress: {
             type: Number,
             required: true,
+            validator: v => v >= 0 && v <= 100,
         },
         position: {
             type: String,

@@ -5,10 +5,27 @@
 
 <script>
 export default {
+    name: 'ProgressBar',
+
     props: {
         color: {
             type: String,
             default: '#f44336',
+        },
+        opacity: {
+            type: Number,
+            default: 1,
+            validator: v => v > 0 && v <= 1,
+        },
+        position: {
+            type: String,
+            default: 'absolute',
+            validator: v => ['absolute', 'fixed'].includes(v),
+        },
+        progress: {
+            type: Number,
+            required: true,
+            validator: v => v >= 0 && v <= 100,
         },
         thickness: {
             type: Number,
@@ -18,21 +35,6 @@ export default {
         transition: {
             type: Number,
             default: 0,
-        },
-        opacity: {
-            type: Number,
-            default: 1,
-            validator: v => v > 0 && v <= 1,
-        },
-        progress: {
-            type: Number,
-            required: true,
-            validator: v => v >= 0 && v <= 100,
-        },
-        position: {
-            type: String,
-            default: 'absolute',
-            validator: v => ['absolute', 'fixed'].includes(v),
         },
     },
 

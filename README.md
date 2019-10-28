@@ -15,24 +15,9 @@ The component can be used outside of the Enso ecosystem.
 
 For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
 
-Check the full documentation at  [docs.laravel-enso.com](https://docs.laravel-enso.com).
+### Installation, Configuration & Usage
 
-### Installation
-
-Install the package:
-```
-npm i @enso-ui/progress-bar
-```
-Import the desired component(s):
-```js
-import ProgressBar from '@enso-ui/progress-bar';
-```
-
-### Exports
-
-`@enso-ui/progress-bar`:
-- `ProgressBar`
-
+Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/frontend/progress-bar.html)
 
 ## Contributions
 

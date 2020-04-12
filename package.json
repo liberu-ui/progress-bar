@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/progress-bar",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Unopinionated Progress Bar",
   "main": "index.js",
   "scripts": {

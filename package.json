@@ -1,5 +1,5 @@
 {
-  "name": "@enso-ui/progress-bar",
+  "name": "@cgdsoftware/progress-bar",
   "version": "2.0.5",
   "description": "Unopinionated Progress Bar",
   "main": "index.js",

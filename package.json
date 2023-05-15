@@ -1,5 +1,5 @@
 {
-  "name": "@cgdsoftware/progress-bar",
+  "name": "@liberu-ui/progress-bar",
   "version": "2.0.5",
   "description": "Unopinionated Progress Bar",
   "main": "index.js",

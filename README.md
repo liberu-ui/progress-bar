@@ -1,10 +1,10 @@
 # Progress Bar
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/progress-bar.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/progress-bar.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/progress-bar.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/progress-bar.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/progress-bar.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/progress-bar.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/progress-bar.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/progress-bar.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/progress-bar.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/progress-bar.svg) 
 
 Unopinionated Progress Bar
 
